@@ -1,0 +1,63 @@
+* {padding:  0; margin: 0px; box-sizing: border-box;}
+body {background-color: lightgray;}
+header
+ {padding-bottom: 20px  ;padding-top: 130px;float:inline-start: 15px;px ;width: 100%; background-color:  #eaeded     ;color:  #777b80  ;
+  padding-left: 65px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;border-bottom: outset black 2px; text-transform: uppercase;  ;
+   }
+   header h1 {font-size: 25px;}
+header h1::first-letter {color:  #1dc6aa  c40f; font-size: 35px; }
+ aside {width: 20%; padding: 5px; border: outset black 2px;
+    background-color:  #1dc6aa   ; float: right;
+    position:absolute; top: ;left: 1050px; bottom: 450px; padding-top: 20px; padding-bottom: 40px;
+  color: #777b80;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; float: inline-end; ;}
+  em {font-weight: bold;}
+  #lista-aside {list-style: none; font-weight: bold}
+nav { display: inline-block; display: flex 100%; width: 100%;padding-top: 15px;padding-bottom: 15px;background-color:  #0e564a ; color: #f9ebea;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+justify-content: center; border-bottom: outset black 2px; text-align: center; }
+nav h3 {padding-left: 65px;}
+ .main-nav {color:whitesmoke; background-color: grey; padding: 20px; margin-right: 270px; margin-left: 200px ;display:inline-block; justify-content: space-around;
+text-decoration: none; border: outset black 2px;
+padding-right: 15px; 
+position: absolute; bottom:555px; left: -150px; right: 50px;
+}
+.main-nav__item {padding: 10px; margin: 8px; background-color:  #1dc6aa  ; color: black; font-weight: bold; }
+.main-nav__item:hover {background-color:beige ;}
+.main-nav__item:active {color: green;}
+
+section {background-color:  #1dc6aa ; color:  #222625  ;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-left: 65px;}
+
+footer { 
+background-color: black;width: 100%; color: whitesmoke;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size: medium;}
+.destinos { border: solid black 10pxx: 50px ;background-color: lightgray; color: black;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  list-style: none; height: 40px;
+  font-weight: bold; text-align: center; 
+}
+.destinos-intl { padding-left: 50px;background-color:grey; list-style: none; font-weight: bold; text-align: center;}
+.destinos-intl a::after { content: "  |  ";
+section {padding: 0px;}
+h2 em {color: grey;}
+#consulta {border: solid black 4px; padding: 12px;}
+ul li {border: outset black 10px;}
+.destinos-int:last-child {font-weight: bold; text-transform: uppercase; }
+#mandarwpp a {position: fixed;}
+}
+.btn-wpp {position: fixed; width: 55px; height: 55px; line-height: 55px; bottom: 30px; background-color: green; border-radius: 50px; text-align: center;}
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:black;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:13px;
+}
